@@ -1,0 +1,222 @@
+body {
+    background-image: url(карта-диррахий.png);
+}
+.eng {
+    display: flex;
+}
+.army-eng {    
+    position: relative;
+    margin: 2px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+img {
+    height: 50px;
+    width: 50px;
+}
+#cav {
+    border-radius: 50%;
+}
+#id {
+    border-radius: 25%;
+}
+.fre {
+    display: flex;
+}
+.a-fre {
+    animation: contr-attack 20s;
+    border-radius: 25%;
+    left: 225px;
+    top: 350px;
+}
+.a-army-fre {
+    animation: contr_attack 20s;
+    left: 250px;
+    top: 300px;
+}
+
+.b-army-fre {
+    animation: attack 20s;
+    left: 200px;
+    top: 400px;
+}
+.c-army-fre {
+    animation: attack 20s;
+    left: 150px;
+    top: 500px;
+}
+.a-cav-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+    left: 200px;
+    top: 400px;
+}
+.b-cav-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+    left: 150px;
+    top: 500px;
+}
+
+.a {
+    border-radius: 25%;
+    animation: oborone 20s;
+    left: 1000px;
+    top: 350px;
+}
+.b {
+    border-radius: 25%;
+    animation: oborone 20s;
+    left: 950px;
+    top: 450px;
+}
+.a-eng {
+    left: 1000px;
+    top: 300px;
+}
+.b-eng {
+    left: 950px;
+    top: 400px;
+}
+.c-eng {
+
+    left: 900px;
+    top: 500px;
+}
+
+.guard-eng {
+    animation: guard 20s;
+    left: 1000px;
+    top: 350px;
+}
+.a-cav {
+    animation: go-back 20s;
+    border-radius: 50%;
+    left: 1100px;
+    top: 300px;
+}
+.b-cav {
+    animation: go-back 20s;
+
+    border-radius: 50%;
+    left: 1050px;
+    top: 400px;
+}
+.c-cav {
+    animation: go-back 20s;
+
+    border-radius: 50%;
+    left: 1000px;
+    top: 500px;
+}
+.army-fre {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+
+
+@keyframes attack {
+    30% {
+        transform: translateX(0px);
+    }
+    45% {
+        transform: translateX(750px);
+    }
+    55% {
+        transform: translateX(750px);
+    }
+    70% {
+        transform: translateX(0px);
+    }
+}
+@keyframes oborone {
+    15% {
+        transform: translateX(0px);
+    }
+    37% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(200px);
+    }
+}
+@keyframes charge {
+    15% {
+        transform: translateX(500px);
+    }
+    30% {
+        transform: translateX(0px);
+    }
+    80% {
+        transform: translateX(0px);
+    }
+    95% {
+        transform: translateX(600px);
+    }
+    100% {
+        transform: translateX(600px);
+
+    }
+}
+
+@keyframes go-back {
+    80% {
+        transform: translateX(0px);
+    }
+    85% {
+        transform: translateX(420px);
+    }
+    100% {
+        transform: translateX(420px);
+    }
+}
+
+@keyframes guard {
+    50% {
+        transform: translateX(0px);
+    }
+    55% {
+        transform: translateX(-150px);
+    }
+    70% {
+        transform: translate(-775px, -110px);
+        opacity: 1;
+    }
+    80% {
+        transform: translate(-775px, -110px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-775px, -110px);
+        opacity: 0;
+    }
+}
+@keyframes contr-attack {
+    70% {
+        transform: translateX(0px);
+    }
+    80% {
+        transform: translate(300px, 10px);
+    }
+    100% {
+        transform: translateX(300px, 10px);
+    }
+}
+
+@keyframes contr_attack {
+    70% {
+        transform: translateX(0px);
+    }
+    80% {
+        transform: translateX(225px);
+    }
+    100% {
+        transform: translateX(225px);
+    }
+}
