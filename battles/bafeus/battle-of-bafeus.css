@@ -15,6 +15,11 @@ img {
     height: 50px;
     width: 50px;
 }
+svg {
+    height: 50px;
+    width: 50px;
+}
+
 #cav {
     border-radius: 50%;
 }
