@@ -1,217 +1,217 @@
 body {
-    background-image: url(map-bafeus.png);
+  background-image: url(map-bafeus.avif);
 }
 .eng {
-    display: flex;
+  display: flex;
 }
-.army-eng {    
-    position: relative;
-    margin: 2px;
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
+.army-eng {
+  position: relative;
+  margin: 2px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
 }
 img {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 svg {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 #cav {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 .fre {
-    display: flex;
+  display: flex;
 }
 .first-army-fre {
-    animation: avangarde 20s;
-    left: 600px;
-    top: 400px;
+  animation: avangarde 20s;
+  left: 600px;
+  top: 400px;
 }
 .second-army-fre {
-    animation: oborone 20s;
-    border-radius: 50%;
-    left: 700px;
-    top: 200px;
+  animation: oborone 20s;
+  border-radius: 50%;
+  left: 700px;
+  top: 200px;
 }
 .a-army-fre {
-    animation: oborone 20s;
-    left: 650px;
-    top: 300px;
+  animation: oborone 20s;
+  left: 650px;
+  top: 300px;
 }
 
 .b-army-fre {
-    animation: oborone 20s;
-    left: 600px;
-    top: 400px;
+  animation: oborone 20s;
+  left: 600px;
+  top: 400px;
 }
 .c-army-fre {
-    animation: oborone 20s;
-    left: 550px;
-    top: 500px;
+  animation: oborone 20s;
+  left: 550px;
+  top: 500px;
 }
 .d-army-fre {
-    animation: oborone 20s;
-    border-radius: 50%;
-    left: 500px;
-    top: 600px;
+  animation: oborone 20s;
+  border-radius: 50%;
+  left: 500px;
+  top: 600px;
 }
 .b-eng {
-    animation: attack 20s;
-    left: 250px;
-    top: 300px;
+  animation: attack 20s;
+  left: 250px;
+  top: 300px;
 }
 .c-eng {
-    animation: attack-2 20s;
-    left: 200px;
-    top: 400px;
+  animation: attack-2 20s;
+  left: 200px;
+  top: 400px;
 }
 .d-eng {
-    animation: attack-3 20s;
+  animation: attack-3 20s;
 
-    left: 150px;
-    top: 500px;
+  left: 150px;
+  top: 500px;
 }
 .a-alan {
-    animation: alan 20s;
-    border-radius: 50%;
-    left: 150px;
-    top: 500px;
+  animation: alan 20s;
+  border-radius: 50%;
+  left: 150px;
+  top: 500px;
 }
 .b-alan {
-    animation: alan 20s;
-    border-radius: 50%;
-    left: 100px;
-    top: 400px;
+  animation: alan 20s;
+  border-radius: 50%;
+  left: 100px;
+  top: 400px;
 }
 .army-fre {
-    position: relative;
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-    margin: 2px;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 2px;
 }
 @keyframes avangarde {
-    20% {
-        left: 200px;
-        top: 400px;
-        transform: scale(1);
-    }
-    40% {
-        left: 600px;
-        top: 400px;
-        transform: scale(0);
-    }
-    100% {
-        left: 600px;
-        top: 400px;
-        transform: scale(0);
-    }
+  20% {
+    left: 200px;
+    top: 400px;
+    transform: scale(1);
+  }
+  40% {
+    left: 600px;
+    top: 400px;
+    transform: scale(0);
+  }
+  100% {
+    left: 600px;
+    top: 400px;
+    transform: scale(0);
+  }
 }
 @keyframes attack {
-    20% {
-        left: 250px;
-        top: 300px;
-    }
-    40% {
-        left: 600px;
-        top: 300px;
-    }
-    60% {
-        left: 600px;
-        top: 300px;
-    }
-    80% {
-        transform: scale(1);
-        transform: translateY(1px);
-    }
-    90% {
-        transform: scale(1);
-        transform: translateY(-100px);
-    }
-    100% {
-        transform: translateX(-100px);
-        transform: scale(0);
-    }
+  20% {
+    left: 250px;
+    top: 300px;
+  }
+  40% {
+    left: 600px;
+    top: 300px;
+  }
+  60% {
+    left: 600px;
+    top: 300px;
+  }
+  80% {
+    transform: scale(1);
+    transform: translateY(1px);
+  }
+  90% {
+    transform: scale(1);
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateX(-100px);
+    transform: scale(0);
+  }
 }
 @keyframes attack-2 {
-    20% {
-        left: 200px;
-        top: 400px;
-    }
-    40% {
-        left: 550px;
-        top: 400px;
-    }
-    60% {
-        left: 550px;
-        top: 400px;
-    }
-    80% {
-        transform: scale(1);
-        transform: translateX(1px);
-    }
-    90% {
-        transform: scale(1);
-        transform: translateY(-200px);
-    }
-    100% {
-        transform: translateY(-200px);
-        transform: scale(0);
-    }
+  20% {
+    left: 200px;
+    top: 400px;
+  }
+  40% {
+    left: 550px;
+    top: 400px;
+  }
+  60% {
+    left: 550px;
+    top: 400px;
+  }
+  80% {
+    transform: scale(1);
+    transform: translateX(1px);
+  }
+  90% {
+    transform: scale(1);
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(-200px);
+    transform: scale(0);
+  }
 }
 @keyframes attack-3 {
-    20% {
-        left: 150px;
-        top: 500px;
-    }
-    40% {
-        left: 500px;
-        top: 500px;
-    }
-    60% {
-        left: 500px;
-        top: 500px;
-    }
-    80% {
-        transform: translateX(1px);
-    }
-    90% {
-        transform: scale(1);
-        transform: translateY(-300px);
-    }
-    100% {
-        transform: translateY(-300px);
-        transform: scale(0);
-    }
+  20% {
+    left: 150px;
+    top: 500px;
+  }
+  40% {
+    left: 500px;
+    top: 500px;
+  }
+  60% {
+    left: 500px;
+    top: 500px;
+  }
+  80% {
+    transform: translateX(1px);
+  }
+  90% {
+    transform: scale(1);
+    transform: translateY(-300px);
+  }
+  100% {
+    transform: translateY(-300px);
+    transform: scale(0);
+  }
 }
 @keyframes oborone {
-    40% {
-        transform: translateX(0)
-    }
-    60% {        
-        transform: translateX(-200px);
-    }
-    100% {
-        transform: translateX(-200px);
-    }
+  40% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(-200px);
+  }
 }
 @keyframes alan {
-    40% {
-        transform: translateX(0)
-    }
-    60% {        
-        transform: translateX(200px);
-    }
-    90% {
-        transform: scale(1);
-        transform: translateX(600px);
-    }
-    100% {
-        transform: translateX(600px);
-        transform: scale(0);
-    }
+  40% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(200px);
+  }
+  90% {
+    transform: scale(1);
+    transform: translateX(600px);
+  }
+  100% {
+    transform: translateX(600px);
+    transform: scale(0);
+  }
 }
