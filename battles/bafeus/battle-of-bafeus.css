@@ -1,5 +1,6 @@
 body {
-  background-image: url(map-bafeus.avif) no-repeat;
+  background-image: url(map-bafeus.avif);
+  background-repeat: no-repeat;
 }
 .eng {
   display: flex;
