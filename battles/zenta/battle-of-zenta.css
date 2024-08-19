@@ -385,3 +385,10 @@ img {
     top: 350px;
   }
 }
+@media (max-width: 500px) {
+  body {
+    background-image: url(../../new-bafeus.avif);
+    background-repeat: no-repeat;
+    background-size: 302% auto;
+  }
+}

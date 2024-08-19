@@ -1,5 +1,6 @@
 body {
   background-image: url(map-dirahium.avif);
+  background-repeat: no-repeat;
 }
 .eng {
   display: flex;
@@ -215,5 +216,12 @@ img {
   }
   100% {
     transform: translateX(225px);
+  }
+}
+@media (max-width: 500px) {
+  body {
+    background-image: url(new-dirahium.avif);
+    background-repeat: no-repeat;
+    background-size: 302% auto;
   }
 }

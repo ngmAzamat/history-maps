@@ -261,3 +261,132 @@ img {
     top: 50px;
   }
 }
+@media (max-width: 500px) {
+  body {
+    background-image: url(new-samarra.avif);
+    background-repeat: no-repeat;
+    background-size: 302% auto;
+  }
+  .eng {
+    display: flex;
+  }
+  .army-eng {
+    position: relative;
+    margin: 2px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+  }
+
+  .cav-eng {
+    left: 500px;
+    top: 800px;
+    border-radius: 50%;
+  }
+
+  .flang-per {
+    left: 500px;
+    top: 800px;
+    border-radius: 50%;
+  }
+
+  .y-eng {
+    left: 500px;
+    top: 800px;
+  }
+
+  .x-eng {
+    left: 500px;
+    top: 800px;
+  }
+
+  .a-eng {
+    left: 500px;
+    top: 800px;
+  }
+
+  .b-eng {
+    left: 500px;
+    top: 800px;
+  }
+  .c-eng {
+    left: 500px;
+    top: 800px;
+  }
+  .d-eng {
+    left: 500px;
+    top: 800px;
+  }
+
+  img {
+    height: 50px;
+    width: 50px;
+  }
+
+  #cav {
+    border-radius: 50%;
+  }
+
+  .fre {
+    display: flex;
+  }
+
+  .flang-ot {
+    left: 1300px;
+    top: 100px;
+    border-radius: 50%;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 2px;
+  }
+
+  .first-army-fre {
+    left: 500px;
+    top: 100px;
+  }
+  .second-army-fre {
+    left: 500px;
+    top: 100px;
+  }
+  .a-army-fre {
+    left: 500px;
+    top: 100px;
+  }
+
+  .b-army-fre {
+    left: 500px;
+    top: 100px;
+  }
+  .c-army-fre {
+    left: 500px;
+    top: 100px;
+  }
+  .d-army-fre {
+    left: 500px;
+    top: 100px;
+  }
+
+  .cav-reserve {
+    border-radius: 50%;
+    left: 1100px;
+    top: 400px;
+  }
+  .new {
+    display: flex;
+  }
+
+  .reserve {
+    left: 750px;
+    top: -60px;
+  }
+
+  .army-fre {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 2px;
+  }
+}

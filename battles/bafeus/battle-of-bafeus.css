@@ -216,3 +216,19 @@ svg {
     transform: scale(0);
   }
 }
+
+@media (max-width: 500px) {
+  body {
+    background-image: url(new-bafeus.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    background-image: url(new-bafeus.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
