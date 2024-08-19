@@ -274,4 +274,93 @@
     background-size: cover;
     background-position: center;
   }
+  .eng {
+    display: flex;
+  }
+  .army-eng {
+    position: relative;
+    margin: 2px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+  }
+
+  .cav-eng {
+    border-radius: 50%;
+  }
+
+  .flang-per {
+    border-radius: 50%;
+  }
+
+  .y-eng {
+  }
+
+  .x-eng {
+  }
+
+  .a-eng {
+  }
+
+  .b-eng {
+  }
+  .c-eng {
+  }
+  .d-eng {
+  }
+
+  img {
+    height: 25px;
+    width: 25px;
+  }
+
+  #cav {
+    border-radius: 50%;
+  }
+
+  .fre {
+    display: flex;
+  }
+
+  .flang-ot {
+    border-radius: 50%;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    margin: 2px;
+  }
+
+  .first-army-fre {
+  }
+  .second-army-fre {
+  }
+  .a-army-fre {
+  }
+
+  .b-army-fre {
+  }
+  .c-army-fre {
+  }
+  .d-army-fre {
+  }
+
+  .cav-reserve {
+    border-radius: 50%;
+  }
+  .new {
+    display: flex;
+  }
+
+  .reserve {
+    animation: reserve 20s;
+  }
+
+  .army-fre {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    margin: 2px;
+  }
 }
