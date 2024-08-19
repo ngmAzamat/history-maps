@@ -218,9 +218,14 @@ svg {
 }
 
 @media (max-width: 500px) {
+  html,
+  body {
+    min-height: 100%;
+  }
   body {
     background-image: url(new-bafeus.avif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
