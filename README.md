@@ -1,5 +1,5 @@
 ### convert to AVIF
 
 ```bash
-avifenc -q 80 map-dirahium.png map-dirahium.avif
+avifenc -q 80 new-bafeus.png new-bafeus.avif
 ```
