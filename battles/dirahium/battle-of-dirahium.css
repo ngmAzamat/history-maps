@@ -256,56 +256,104 @@
   }
   .a-fre {
     border-radius: 25%;
-    left: 0px;
-    top: 0px;
+    left: 80px;
+    top: 525px;
   }
   .a-army-fre {
-    left: 0px;
-    top: 0px;
+    left: 100px;
+    top: 500px;
   }
 
   .b-army-fre {
     animation: attack 20s;
-    left: 0px;
-    top: 0px;
+
+    left: 100px;
+    top: 500px;
   }
   .c-army-fre {
+    animation: attack 20s;
+
+    left: 100px;
+    top: 500px;
   }
   .a-cav-fre {
+    animation: charge 20s;
     border-radius: 50%;
+    left: 25px;
+    top: 450px;
   }
   .b-cav-fre {
+    animation: charge 20s;
     border-radius: 50%;
+    left: 25px;
+    top: 450px;
   }
 
   .a {
     border-radius: 25%;
+    left: 120px;
+    top: 200px;
   }
   .b {
     border-radius: 25%;
+    left: 120px;
+    top: 200px;
   }
   .a-eng {
+    left: 45px;
+    top: 150px;
   }
   .b-eng {
+    left: 45px;
+    top: 150px;
   }
   .c-eng {
+    left: 45px;
+    top: 150px;
   }
 
   .guard-eng {
+    left: -30px;
+    top: 100px;
   }
   .a-cav {
     border-radius: 50%;
+    left: -80px;
+    top: 50px;
   }
   .b-cav {
     border-radius: 50%;
+    left: -80px;
+    top: 50px;
   }
   .c-cav {
     border-radius: 50%;
+    left: -80px;
+    top: 50px;
   }
   .army-fre {
     position: relative;
     height: 25px;
     width: 25px;
     margin: 2px;
+  }
+  @keyframes charge {
+    20% {
+      transform: translateY(-150px);
+    }
+    40% {
+      transform: translateY(0px);
+    }
+  }
+  @keyframes attack {
+    20% {
+      transform: translateY(0px);
+    }
+    40% {
+      transform: translateY(-225px);
+    }
+    60% {
+      transform: translateY(0px);
+    }
   }
 }

@@ -286,27 +286,57 @@
   }
 
   .cav-eng {
+    animation: reserve 20s;
+
     border-radius: 50%;
+    left: 0px;
+    top: 600px;
   }
 
   .flang-per {
+    animation: charge 20s;
     border-radius: 50%;
+    left: 0px;
+    top: 600px;
   }
 
   .y-eng {
+    animation: attack 20s;
+
+    left: 0px;
+    top: 600px;
   }
 
   .x-eng {
+    animation: attack 20s;
+
+    left: 0px;
+    top: 600px;
   }
 
   .a-eng {
+    animation: attack 20s;
+
+    left: 0px;
+    top: 600px;
   }
 
   .b-eng {
+    animation: attack 20s;
+
+    left: 0px;
+    top: 600px;
   }
   .c-eng {
+    animation: attack 20s;
+
+    left: 0px;
+    top: 600px;
   }
   .d-eng {
+    animation: attack 20s;
+    left: 0px;
+    top: 600px;
   }
 
   img {
@@ -323,6 +353,9 @@
   }
 
   .flang-ot {
+    animation: charge-ot 20s;
+    left: 300px;
+    top: 250px;
     border-radius: 50%;
     position: relative;
     height: 25px;
@@ -332,28 +365,44 @@
   }
 
   .first-army-fre {
+    left: 0px;
+    top: 200px;
   }
   .second-army-fre {
+    left: 0px;
+    top: 200px;
   }
   .a-army-fre {
+    left: 0px;
+    top: 200px;
   }
 
   .b-army-fre {
+    left: 0px;
+    top: 200px;
   }
   .c-army-fre {
+    left: 0px;
+    top: 200px;
   }
   .d-army-fre {
+    left: 0px;
+    top: 200px;
+    opacity: 0;
   }
 
   .cav-reserve {
     border-radius: 50%;
+    left: 0px;
+    top: 100px;
   }
   .new {
     display: flex;
   }
 
   .reserve {
-    animation: reserve 20s;
+    left: 110px;
+    top: 150px;
   }
 
   .army-fre {
@@ -362,5 +411,37 @@
     width: 25px;
     border: 1px solid black;
     margin: 2px;
+  }
+  @keyframes attack {
+    20% {
+      transform: translate(15px, -335px);
+    }
+    100% {
+      transform: translate(15px, -335px);
+    }
+  }
+  @keyframes charge {
+    20% {
+      transform: translate(50px, -200px);
+    }
+    100% {
+      transform: translate(50px, -200px);
+    }
+  }
+  @keyframes reserve {
+    20% {
+      transform: translate(150px, 0px);
+    }
+    100% {
+      transform: translate(150px, -300px);
+    }
+  }
+  @keyframes charge-ot {
+    20% {
+      transform: translate(-10px, 50px);
+    }
+    100% {
+      transform: translate(-10px, 50px);
+    }
   }
 }

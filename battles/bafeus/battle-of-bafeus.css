@@ -243,10 +243,6 @@
     height: 25px;
     width: 25px;
   }
-  svg {
-    height: 25px;
-    width: 25px;
-  }
 
   #cav {
     border-radius: 50%;
@@ -255,53 +251,66 @@
     display: flex;
   }
   .first-army-fre {
-    left: 0px;
-    top: 0px;
+    animation: charge 20s;
+    left: 50px;
+    top: 200px;
   }
   .second-army-fre {
+    animation: oborone 20s;
     border-radius: 50%;
-    left: 0px;
-    top: 0px;
+    left: -150px;
+    top: 100px;
   }
   .a-army-fre {
-    left: 0px;
-    top: 0px;
+    animation: oborone 20s;
+    left: -150px;
+    top: 100px;
   }
 
   .b-army-fre {
-    left: 0px;
-    top: 0px;
+    animation: oborone 20s;
+
+    left: -150px;
+    top: 100px;
   }
   .c-army-fre {
-    left: 0px;
-    top: 0px;
+    animation: oborone 20s;
+
+    left: -150px;
+    top: 100px;
   }
   .d-army-fre {
+    animation: oborone 20s;
     border-radius: 50%;
-    left: 0px;
-    top: 0px;
+    left: -150px;
+    top: 100px;
   }
   .b-eng {
+    animation: attack 20s;
     left: 100px;
-    top: 400px;
+    top: 550px;
   }
   .c-eng {
+    animation: attack 20s;
     left: 100px;
-    top: 400px;
+    top: 550px;
   }
   .d-eng {
+    animation: attack 20s;
     left: 100px;
-    top: 400px;
+    top: 550px;
   }
   .a-alan {
+    animation: alan 20s;
     border-radius: 50%;
-    left: 100px;
-    top: 400px;
+    left: 200px;
+    top: 600px;
   }
   .b-alan {
+    animation: alan 20s;
     border-radius: 50%;
-    left: 100px;
-    top: 400px;
+    left: 200px;
+    top: 600px;
   }
   .army-fre {
     position: relative;
@@ -309,5 +318,68 @@
     width: 25px;
     border: 1px solid black;
     margin: 2px;
+  }
+  @keyframes charge {
+    20% {
+      opacity: 1;
+      transform: translateY(300px);
+    }
+    40% {
+      transform: translateY(0px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes attack {
+    20% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    40% {
+      transform: translateY(-300px);
+      opacity: 1;
+    }
+    60% {
+      transform: translateY(-300px);
+      opacity: 1;
+    }
+    80% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes oborone {
+    40% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    60% {
+      transform: translateY(100px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100px);
+      opacity: 1;
+    }
+  }
+  @keyframes alan {
+    60% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    80% {
+      transform: translateY(-350px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-350px);
+      opacity: 0;
+    }
   }
 }
