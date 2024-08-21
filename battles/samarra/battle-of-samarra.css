@@ -401,8 +401,9 @@
   }
 
   .reserve {
+    animation: reserve-ot 20s;
     left: 110px;
-    top: 150px;
+    top: 140px;
   }
 
   .army-fre {
@@ -416,24 +417,48 @@
     20% {
       transform: translate(15px, -335px);
     }
-    100% {
+    82.5% {
       transform: translate(15px, -335px);
+    }
+    97.5% {
+      transform: translate(15px, -50px);
+    }
+    100% {
+      transform: translate(15px, -50px);
     }
   }
   @keyframes charge {
     20% {
       transform: translate(50px, -200px);
     }
-    100% {
+    83.5% {
       transform: translate(50px, -200px);
+    }
+    97.5% {
+      transform: translate(50px, -10px);
+    }
+    100% {
+      transform: translate(50px, -10px);
     }
   }
   @keyframes reserve {
     20% {
       transform: translate(150px, 0px);
     }
-    100% {
+    50% {
+      transform: translate(150px, 0px);
+    }
+    67.5% {
       transform: translate(150px, -300px);
+    }
+    80% {
+      transform: translate(150px, -300px);
+    }
+    95% {
+      transform: translate(150px, 0px);
+    }
+    100% {
+      transform: translate(150px, 0px);
     }
   }
   @keyframes charge-ot {
@@ -442,6 +467,17 @@
     }
     100% {
       transform: translate(-10px, 50px);
+    }
+  }
+  @keyframes reserve-ot {
+    40% {
+      transform: translateY(0px);
+    }
+    45% {
+      transform: translateY(25px);
+    }
+    100% {
+      transform: translateY(25px);
     }
   }
 }
