@@ -290,50 +290,59 @@
   }
 
   .a {
+    animation: avangarde 20s;
     border-radius: 25%;
-    left: 120px;
+    left: 140px;
     top: 200px;
   }
   .b {
+    animation: avangarde 20s;
+
     border-radius: 25%;
-    left: 120px;
+    left: 140px;
     top: 200px;
   }
   .a-eng {
-    left: 45px;
+    animation: army 20s;
+
+    left: 65px;
     top: 150px;
   }
   .b-eng {
-    left: 45px;
+    animation: army 20s;
+
+    left: 65px;
     top: 150px;
   }
   .c-eng {
-    left: 45px;
+    animation: army 20s;
+
+    left: 65px;
     top: 150px;
   }
 
   .guard-eng {
     animation: guard 20s;
-    left: -30px;
+    left: -10px;
     top: 100px;
   }
   .a-cav {
     animation: go-back 20s;
     border-radius: 50%;
-    left: -80px;
+    left: -60px;
     top: 50px;
   }
   .b-cav {
     animation: go-back 20s;
     border-radius: 50%;
-    left: -80px;
+    left: -60px;
     top: 50px;
   }
   .c-cav {
     animation: go-back 20s;
 
     border-radius: 50%;
-    left: -80px;
+    left: -60px;
     top: 50px;
   }
   .army-fre {
@@ -349,12 +358,24 @@
     40% {
       transform: translateY(0px);
     }
+    75% {
+      transform: translateY(0px);
+    }
+    95% {
+      transform: translateY(-200px);
+    }
+    100% {
+      transform: translateY(-200px);
+    }
   }
   @keyframes attack {
     20% {
       transform: translateY(0px);
     }
     40% {
+      transform: translateY(-225px);
+    }
+    50% {
       transform: translateY(-225px);
     }
     60% {
@@ -373,6 +394,57 @@
     }
     100% {
       transform: translateY(-300px);
+    }
+  }
+  @keyframes guard {
+    40% {
+      transform: translate(0px);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(100px);
+    }
+    67.5% {
+      transform: translateY(285px);
+      opacity: 1;
+    }
+    70% {
+      transform: translateY(285px);
+
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(285px);
+
+      opacity: 0;
+    }
+  }
+  @keyframes avangarde {
+    37% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    55% {
+      transform: translateY(-100px);
+    }
+    60% {
+      transform: translateY(0px);
+    }
+    90% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(-100px);
+    }
+  }
+  @keyframes army {
+    90% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(-100px);
     }
   }
 }

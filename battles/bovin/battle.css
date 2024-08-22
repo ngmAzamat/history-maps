@@ -4,14 +4,18 @@ body {
 .army-eng {
   margin: 2px;
   height: 50px;
-  width: 125px;
-  background-color: red;
-  border: 1px solid silver;
+  width: 50px;
+  border: 1px solid black;
   transform: translate(500px, 200px);
 }
 
 .a-army-fre {
   animation: go-back-attack 20s;
+}
+
+img {
+  height: 50px;
+  width: 50px;
 }
 
 .center {
@@ -39,9 +43,8 @@ body {
 .army-fre {
   position: relative;
   height: 50px;
-  width: 125px;
-  background-color: blue;
-  border: 1px solid silver;
+  width: 50px;
+  border: 1px solid black;
   transform: translate(500px, 300px);
   margin: 2px;
 }
