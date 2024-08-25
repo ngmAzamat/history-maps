@@ -1,0 +1,333 @@
+@media screen and (orientation: landscape) {
+  body {
+    background-image: url(map-dirahium.avif);
+    background-repeat: no-repeat;
+  }
+  .eng {
+    display: flex;
+  }
+  .army-eng {
+    border: 1px solid black;
+    position: relative;
+    margin: 2px;
+    height: 50px;
+    width: 50px;
+  }
+  img {
+    height: 50px;
+    width: 50px;
+  }
+  #cav {
+    border-radius: 50%;
+  }
+  #id {
+    border-radius: 25%;
+  }
+  .fre {
+    display: flex;
+  }
+  .a-fre {
+    animation: arbalet 20s;
+    border-radius: 25%;
+    left: -370px;
+    top: 430px;
+  }
+
+  .a-army-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+
+    left: 100px;
+    top: 500px;
+  }
+  .b-army-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+
+    left: 100px;
+    top: 500px;
+  }
+  .c-army-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+
+    left: 100px;
+    top: 500px;
+  }
+  .a-cav-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+    left: 100px;
+    top: 500px;
+  }
+  .b-cav-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+    left: -200px;
+    top: 600px;
+  }
+
+  .a {
+    border-radius: 25%;
+    /* animation: oborone 20s; */
+    left: 100px;
+    top: 120px;
+  }
+  .b {
+    border-radius: 25%;
+    /* animation: oborone 20s; */
+    left: 100px;
+    top: 120px;
+  }
+  .a-eng {
+    left: 100px;
+    top: 100px;
+  }
+  .b-eng {
+    left: 100px;
+    top: 100px;
+  }
+  .c-eng {
+    left: 100px;
+    top: 100px;
+  }
+
+  .guard-eng {
+    left: 100px;
+    top: 100px;
+  }
+  .a-cav {
+    animation: eng-charge 20s;
+    border-radius: 50%;
+    left: -200px;
+    top: 0px;
+  }
+  .b-cav {
+    animation: eng-charge 20s;
+
+    border-radius: 50%;
+    left: -200px;
+    top: 0px;
+  }
+  .c-cav {
+    animation: eng-charge 20s;
+
+    border-radius: 50%;
+    left: -200px;
+    top: 0px;
+  }
+  .army-fre {
+    border: 1px solid black;
+
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+  }
+
+  @keyframes arbalet {
+    10% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+@keyframes charge {
+  10% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-270px);
+  }
+  50% {
+    transform: translateY(-270px);
+  }
+
+  60% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes eng-charge {
+  35% {
+    transform: translateY(0px);
+  }
+  45% {
+    transform: translateY(45px);
+  }
+  100% {
+    transform: translateY(45px);
+  }
+}
+
+@media screen and (orientation: portrait) {
+  body {
+    background-image: url(map-dirahium.avif);
+    background-repeat: no-repeat;
+  }
+  .eng {
+    display: flex;
+  }
+  .army-eng {
+    border: 1px solid black;
+    position: relative;
+    margin: 2px;
+    height: 50px;
+    width: 50px;
+  }
+  img {
+    height: 50px;
+    width: 50px;
+  }
+  #cav {
+    border-radius: 50%;
+  }
+  #id {
+    border-radius: 25%;
+  }
+  .fre {
+    display: flex;
+  }
+  .a-fre {
+    animation: arbalet 20s;
+    border-radius: 25%;
+    left: -370px;
+    top: 430px;
+  }
+
+  .a-army-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+
+    left: 100px;
+    top: 500px;
+  }
+  .b-army-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+
+    left: 100px;
+    top: 500px;
+  }
+  .c-army-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+
+    left: 100px;
+    top: 500px;
+  }
+  .a-cav-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+    left: 100px;
+    top: 500px;
+  }
+  .b-cav-fre {
+    animation: charge 20s;
+    border-radius: 50%;
+    left: -200px;
+    top: 600px;
+  }
+
+  .a {
+    border-radius: 25%;
+    /* animation: oborone 20s; */
+    left: 100px;
+    top: 120px;
+  }
+  .b {
+    border-radius: 25%;
+    /* animation: oborone 20s; */
+    left: 100px;
+    top: 120px;
+  }
+  .a-eng {
+    left: 100px;
+    top: 100px;
+  }
+  .b-eng {
+    left: 100px;
+    top: 100px;
+  }
+  .c-eng {
+    left: 100px;
+    top: 100px;
+  }
+
+  .guard-eng {
+    left: 100px;
+    top: 100px;
+  }
+  .a-cav {
+    animation: eng-charge 20s;
+    border-radius: 50%;
+    left: -200px;
+    top: 0px;
+  }
+  .b-cav {
+    animation: eng-charge 20s;
+
+    border-radius: 50%;
+    left: -200px;
+    top: 0px;
+  }
+  .c-cav {
+    animation: eng-charge 20s;
+
+    border-radius: 50%;
+    left: -200px;
+    top: 0px;
+  }
+  .army-fre {
+    border: 1px solid black;
+
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+  }
+
+  @keyframes arbalet {
+    10% {
+      transform: translateY(-200px);
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+@keyframes charge {
+  10% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-270px);
+  }
+  50% {
+    transform: translateY(-270px);
+  }
+
+  60% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes eng-charge {
+  35% {
+    transform: translateY(0px);
+  }
+  45% {
+    transform: translateY(45px);
+  }
+  100% {
+    transform: translateY(45px);
+  }
+}

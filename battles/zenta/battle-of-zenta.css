@@ -393,7 +393,7 @@
     min-height: 100%;
   }
   body {
-    background-image: url(zenta.avif);
+    background-image: url(new-maps-zenta.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -410,23 +410,50 @@
   }
 
   .cav-eng {
+    animation: charge 20s;
+
+    left: 50px;
+    top: 500px;
     border-radius: 50%;
   }
 
   .y-eng {
+    animation: reserve 20s;
+
+    left: 225px;
+    top: 600px;
   }
 
   .x-eng {
+    animation: reserve-1 20s;
+
+    left: 175px;
+    top: 600px;
   }
 
   .a-eng {
+    animation: reserve-2 20s;
+
+    left: 60px;
+    top: 500px;
   }
 
   .b-eng {
+    animation: attack 20s;
+
+    left: 100px;
+    top: 500px;
   }
   .c-eng {
+    animation: attack 20s;
+
+    left: 140px;
+    top: 500px;
   }
   .d-eng {
+    animation: attack 20s;
+    left: 170px;
+    top: 500px;
   }
 
   img {
@@ -443,18 +470,40 @@
   }
 
   .flang-ot {
+    animation: ottoman-pex 20s;
+    left: 100px;
+    top: 200px;
   }
 
   .a-army-fre {
+    animation: ottoman 20s;
+
+    left: 120px;
+    top: 250px;
   }
   .b-army-fre {
+    animation: ottoman 20s;
+
+    left: 150px;
+    top: 250px;
   }
   .c-army-fre {
+    animation: ottoman 20s;
+
+    left: 200px;
+    top: 250px;
   }
   .d-army-fre {
+    animation: ottoman 20s;
+
+    left: 250px;
+    top: 250px;
   }
 
   .cav-reserve {
+    animation: ottoman-cav 20s;
+    left: 200px;
+    top: 119.151px;
     border-radius: 50%;
   }
   .new {
@@ -462,6 +511,8 @@
   }
 
   .reserve {
+    left: 0px;
+    top: 0px;
     border-radius: 50%;
     position: relative;
     height: 25px;
@@ -476,5 +527,132 @@
     width: 25px;
     border: 1px solid black;
     margin: 2px;
+  }
+  @keyframes attack {
+    10% {
+      transform: translateY(-170px);
+    }
+    100% {
+      transform: translateY(-170px);
+    }
+  }
+  @keyframes charge {
+    10% {
+      transform: translate(-20px, -240px);
+    }
+    15% {
+      transform: translate(-20px, -240px);
+    }
+    20% {
+      transform: translate(-100px, -125px);
+    }
+    30% {
+      transform: translate(-100px, -125px);
+    }
+    35% {
+      transform: translate(-20px, -240px);
+    }
+    100% {
+      transform: translate(-20px, -240px);
+    }
+  }
+
+  @keyframes ottoman-cav {
+    35% {
+      transform: translate(0px, 0px);
+    }
+    40% {
+      transform: translate(-75px, 75px);
+      opacity: 1;
+    }
+    92.5% {
+      opacity: 1;
+    }
+    97.5% {
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-75px, 75px);
+      opacity: 0;
+    }
+  }
+  @keyframes reserve {
+    10% {
+      transform: translateY(-170px);
+    }
+    35% {
+      transform: translateY(-170px);
+    }
+    40% {
+      transform: translate(-25px, -120px);
+    }
+    50% {
+      transform: translate(-100px, -125px);
+    }
+    65% {
+      transform: translate(-200px, -135px);
+    }
+    80% {
+      transform: translate(-200px, -370px);
+    }
+    87.5% {
+      transform: translate(-200px, -370px);
+    }
+    92.5% {
+      transform: translate(0px, -370px);
+    }
+    100% {
+      transform: translate(0px, -370px);
+    }
+  }
+  @keyframes reserve-1 {
+    10% {
+      transform: translateY(-170px);
+    }
+    15% {
+      transform: translateY(-170px);
+    }
+    20% {
+      transform: translateY(-275px);
+    }
+    100% {
+      transform: translateY(-275px);
+    }
+  }
+  @keyframes reserve-2 {
+    10% {
+      transform: translateY(-170px);
+    }
+    15% {
+      transform: translateY(-170px);
+    }
+    20% {
+      transform: translate(-35px, -200px);
+    }
+    100% {
+      transform: translate(-35px, -200px);
+    }
+  }
+  @keyframes ottoman-pex {
+    80% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes ottoman {
+    92.5% {
+      opacity: 1;
+    }
+    97.5% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
   }
 }
